@@ -1,0 +1,38 @@
+/* Genel buton stili */
+button {
+  width: 144px; /* Buton genişliği */
+  height: 45px; /* Buton yüksekliği */
+  font-weight: 500; /* Yazı kalınlığı */
+  font-size: 16px; /* Yazı boyutu */
+  background-color: var(--black); /* Arka plan rengi */
+  color: var(--white); /* Metin rengi */
+  border-radius: 27px; /* Kenar yuvarlaklığı */
+  font-family: "Prompt", sans-serif; /* Yazı tipi */
+}
+
+/* Küçük boyutlu buton stili */
+button.sm {
+  width: 139px; /* Küçük buton genişliği */
+  height: 41px; /* Küçük buton yüksekliği */
+  border-radius: 27px; /* Küçük buton kenar yuvarlaklığı */
+}
+
+/* Büyük boyutlu buton stili */
+button.lng {
+  font-size: 20px; /* Büyük buton yazı boyutu */
+  width: 158px; /* Büyük buton genişliği */
+  height: 52px; /* Büyük buton yüksekliği */
+  border-radius: 32px; /* Büyük buton kenar yuvarlaklığı */
+}
+/* Bağlantıların genel stili */
+.link {
+  color: var(--black); /* Metin rengi */
+  font-size: 20px; /* Yazı boyutu */
+  text-decoration: none; /* Altçizgi kaldırıldı */
+  transition: var(--transition); /* Geçiş efekti için geçiş süresi */
+}
+
+/* Bağlantıların üzerine gelindiğindeki stili */
+.link:hover {
+  color: var(--dogger-blue); /* Fare üzerine geldiğinde metin rengi */
+}

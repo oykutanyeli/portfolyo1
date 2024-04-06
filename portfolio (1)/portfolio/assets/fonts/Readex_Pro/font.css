@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "ReadexPro";
+    src: url("./ReadexPro-SemiBold.ttf"), local("ReadexPro Thin");
+    font-weight: 600;
+  }

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "RedHatText";
+  src: url("./RedHatText-Bold.ttf"), local("RedHatText Bold");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "RedHatText";
+  src: url("./RedHatText-Regular.ttf"), local("RedHatText Regular");
+  font-weight: 400;
+}

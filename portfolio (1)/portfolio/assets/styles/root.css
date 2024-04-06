@@ -1,0 +1,28 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --viking: #6faedf;
+  --portica: #f6da6f;
+  --seagull: #77b7e9;
+  --saffron: #f2cd3f;
+  --kournikova: #ffe069;
+  --french-grey: #c4c5c8;
+  --dogger-blue: #1e9cfe;
+  --el-paso: #251a0a;
+  --moss-green: #a7d9b4;
+  --tree-poppy: #fb9a15;
+  --flush-orange: #ff7a00;
+  --clay-creek-line: #8f815e;
+  --silver-chalice: #9e9e9e;
+  --selago: #f0f7fd;
+  --eucalyptus: #268940;
+  --piton-blue: #4197e0;
+
+  --header-height: 112px; /*Başlık bölgesi yükseklik ayarları */
+
+  --transition: all 0.4s ease-out;
+  /*ÖNEMLİ UNUTMA */
+  /* --transition değişkeni, geçiş efektlerinin süresini ve türünü tanımlıyor.
+   Bu değişken, tüm geçişlerin (transitions) 0.4 saniye sürmesini ve 'ease-out' eğrisini kullanmasını sağlar.
+   Yani, bir öğe üzerine gelindiğinde veya durumu değiştiğinde (renk, boyut vb.), geçişin yumuşak olacağını belirtir. */
+}

@@ -1,0 +1,54 @@
+/* YAZI BOYUTU AYARLAMA SAYFASI */
+
+h1 {
+  font-size: 70px; /* h1 boyutu */
+  font-weight: 600; /* Kalınlık */
+  line-height: 85px; /* Satır yüksekliği */
+}
+
+h2 {
+  font-size: 40px; /* h2 boyutu */
+  font-weight: 600; /* Kalınlık */
+}
+
+h3 {
+  font-size: 36px; /* h3 boyutu */
+  font-weight: 600; /* Kalınlık */
+}
+
+h4 {
+  font-size: 30px; /* h4 boyutu */
+  font-weight: 600; /* Kalınlık */
+}
+
+h5 {
+  font-size: 30px; /* h5 boyutu */
+  font-weight: 500; /* Kalınlık */
+  line-height: normal; /* Satır yüksekliği normal */
+}
+
+h6 {
+  font-size: 24px; /* h6 boyutu */
+  font-weight: 500; /* Kalınlık */
+}
+
+p {
+  font-size: 20px; /* p boyutu */
+  font-weight: 400; /* Kalınlık */
+  line-height: normal; /* Satır yüksekliği normal */
+}
+
+p.lg {
+  font-size: 24px; /* Büyük paragraf boyutu */
+}
+
+p.sm {
+  font-size: 16px; /* Küçük paragraf boyutu */
+  line-height: normal; /* Satır yüksekliği normal */
+}
+
+.p-bold {
+  font-size: 20px; /* Paragraf kalın boyutu */
+  font-weight: 500px; /* Paragraf kalınlık */
+  line-height: normal; /* Satır yüksekliği normal */
+}

@@ -1,0 +1,337 @@
+/* Stil CSS dosyası */
+
+/* Genel sayfa stil ayarları */
+body {
+  font-family: "Prompt", sans-serif; /* Genel metin fontu */
+  color: var(--black); /* Metin rengi */
+}
+
+/* Başlık bölgesinin stil ayarları */
+.header {
+  display: flex; /* Öğeleri yan yana hizalar */
+  background-color: var(--portica); /* Arkaplan rengi */
+  justify-content: space-between; /* Öğeleri arasında boşluk bırak */
+  align-items: center; /* Öğeleri dikeyde hizala */
+  height: var(--header-height); /* Yükseklik */
+}
+
+/* Nav menüsünün stil ayarları */
+nav {
+  display: flex; /* Öğeleri yan yana hizalar */
+  align-items: center; /* Öğeleri dikeyde hizala */
+  gap: 54px; /* Öğeler arası boşluk */
+}
+
+/* Nav menüsü bağlantılarının stil ayarları */
+.nav ul {
+  display: flex; /* Öğeleri yan yana hizalar */
+  gap: 60px; /* Öğeler arası boşluk */
+}
+
+/* Hero bölgesinin stil ayarları */
+.hero {
+  display: flex; /* Öğeleri yan yana hizalar */
+  background-color: var(--portica); /* Arkaplan rengi */
+  height: calc(100vh - var(--header-height)); /* Yükseklik hesaplanır */
+}
+
+/* Hero içeriğinin stil ayarları */
+.hero-info-container {
+  width: 50%; /* Genişlik */
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikey yönde hizala */
+  justify-content: center; /* İçeriği dikeyde hizala */
+}
+
+/* Hero içeriğinin paragraf öğelerinin stil ayarları */
+.hero-info-container p {
+  margin-top: 20px; /* Üst boşluk */
+}
+
+/* Hero içeriğindeki giriş alanının stil ayarları */
+.hero-info-container input {
+  margin-top: 179px; /* Üst boşluk */
+}
+
+/* Hero içeriğindeki butonun stil ayarları */
+.hero-info-container button {
+  margin-top: 26px; /* Üst boşluk */
+}
+
+/* Hero içeriğindeki görsel bölgenin stil ayarları */
+.hero-img-container {
+  width: 50%; /* Genişlik */
+}
+
+/* Hero içeriğindeki görsel bölgenin stil ayarları */
+.section-center {
+  display: flex; /* Öğeleri yan yana hizalar */
+  justify-content: center; /* Öğeleri yatayda hizala */
+}
+
+/*başlık öğelerinin stil ayarları */
+.section-center h5 {
+  margin-top: 24px; /* Üst boşluk */
+}
+
+/* Turuncu renkli metnin stil ayarları */
+p.orange {
+  margin-top: 24px; /* Üst boşluk */
+  color: var(--flush-orange); /* Metin rengi */
+}
+
+/*h5  Başlığı sonrası paragraf öğelerinin stil ayarları */
+h5 + p {
+  margin-top: 11px; /* Üst boşluk */
+}
+
+/* service bölgesinin stil ayarları */
+.service {
+  display: flex; /* Öğeleri yan yana hizalar */
+  text-align: center; /* Metni ortala */
+  align-items: center; /* Öğeleri dikeyde hizala */
+}
+
+/* service görsel bölgesinin stil ayarları */
+.service-img-container {
+  margin-top: 101px; /* Üst boşluk */
+  margin-left: 155px; /* Sol boşluk */
+}
+
+/* stil ayarları */
+.service-welcome-container {
+  margin-left: 155px; /* Sol boşluk */
+  margin-right: 50px; /* Sağ boşluk */
+  margin-top: 197px; /* Üst boşluk */
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+  text-align: left; /* Metni sola hizala */
+}
+
+/* paragraf öğelerinin stil ayarları */
+.service-welcome-container p {
+  margin-top: 10px; /* Üst boşluk */
+  margin-left: 5px; /* Sol boşluk */
+}
+
+/* Başlık sonrası paragraf öğelerinin stil ayarları */
+h3 + p {
+  width: 239px; /* Genişlik */
+  margin-left: 39px; /* Sol boşluk */
+  margin-bottom: 49px; /* Alt boşluk */
+}
+
+/* provide bölgesinin stil ayarları */
+.provide {
+  margin-right: 205px; /* Sağ boşluk */
+  margin-top: 175px; /* Üst boşluk */
+}
+
+/* provide h3 başlık metni stil ayarları */
+.provide h3 {
+  margin-bottom: 24px; /* Alt boşluk */
+}
+
+/* services bölgesindeki hizmetler arası boşluk ayarı */
+.services {
+  display: inline-flex; /* Öğeleri yan yana hizalar */
+  flex-direction: row; /* Yatayda hizala */
+  text-align: left; /* Metni sola hizala */
+  margin-top: 24px; /* Üst boşluk */
+  gap: 24px; /* Öğeler arası boşluk */
+}
+
+/* Layout bölgesinin stil ayarları */
+.layout {
+  border-radius: 12px; /* Köşe yuvarlama */
+  border: 1px solid rgba(196, 197, 200, 0.45); /* Kenarlık */
+  background-color: var(--saffron); /* Arkaplan rengi */
+  box-shadow: 4px 4px 36px 0px rgba(255, 224, 105, 0.43); /* Gölge */
+  width: 177px; /* Genişlik */
+  height: 86px; /* Yükseklik */
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+  justify-content: center; /* İçeriği dikeyde hizala */
+  padding-left: 17px; /* Sol iç boşluk */
+}
+/* graphic bölgesinin stil ayarları */
+.graphic {
+  border-radius: 12px; /* Köşe yuvarlama */
+  border: 1px solid rgba(196, 197, 200, 0.45); /* Kenarlık */
+  background: var(--white); /* Arkaplan rengi */
+  width: 177px; /* Genişlik */
+  height: 86px; /* Yükseklik */
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+  justify-content: center; /* İçeriği dikeyde hizala */
+  padding-left: 17px; /* Sol iç boşluk */
+}
+
+/* about bölgesinin stil ayarları */
+.about {
+  display: flex; /* Öğeleri yan yana hizalar */
+  margin-top: 188px; /* Üst boşluk */
+  margin-left: 155px; /* Sol boşluk */
+  text-align: start; /* Metni sola hizala */
+  gap: 125px; /* Öğeler arası boşluk */
+}
+
+/* about bölgesindeki görsel bölgenin stil ayarları */
+.about-img {
+  margin-right: 310px; /* Sağ boşluk */
+}
+
+/* about bölgesindeki başlık metni h2 stil ayarları */
+.about h2 {
+  margin-top: 188px; /* Üst boşluk */
+  width: 505px; /* Genişlik */
+}
+
+/* about paragraf öğelerinin stil ayarları */
+.about p {
+  margin-top: 20px; /* Üst boşluk */
+  margin-bottom: 67px; /* Alt boşluk */
+  width: 505px; /* Genişlik */
+}
+
+/*turuncu renkli paragraf öğelerinin stil ayarları */
+.about p.sm {
+  color: var(--flush-orange); /* Metin rengi */
+}
+
+/*butonların stil ayarları */
+.about-button {
+  display: flex; /* Öğeleri yan yana hizalar */
+  gap: 30px; /* Öğeler arası boşluk */
+}
+.info {
+  padding-top: 68px; /* Üst iç boşluk */
+  padding-bottom: 141px; /* Alt iç boşluk */
+  background: rgba(119, 183, 233, 0.11); /* Arkaplan rengi */
+  margin-top: 151px; /* Üst dış boşluk */
+
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+  gap: 9px; /* Öğeler arası boşluk */
+}
+
+.info-container {
+  display: flex; /* Öğeleri yan yana hizalar */
+  justify-content: space-between; /* Öğeleri aralarında eşit mesafede hizala */
+  align-items: center; /* Öğeleri dikeyde hizala */
+}
+
+.info-container img {
+  width: 456px; /* Genişlik */
+  height: 456px; /* Yükseklik */
+  margin-left: 273px; /* Sol boşluk */
+  margin-right: 200px; /* Sağ boşluk */
+}
+
+.info-text-container {
+  width: 505px; /* Genişlik */
+  height: 349px; /* Yükseklik */
+  margin-left: 263px; /* Sol boşluk */
+  margin-right: 180px; /* Sağ boşluk */
+}
+
+.info-text-container h2 {
+  line-height: 70px; /* Satır yüksekliği */
+}
+
+/*stil ayarları */
+.pricing {
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+  align-items: center; /* Öğeleri dikeyde hizala */
+  padding-top: 81px; /* Üst iç boşluk */
+  padding-bottom: 94px; /* Alt iç boşluk */
+}
+
+/*maksimum genişlik ayarı */
+.pricing > p {
+  max-width: 750px; /* Maksimum genişlik */
+}
+
+/*stil ayarları */
+.pricing-plans {
+  display: flex; /* Öğeleri yan yana hizalar */
+  gap: 40px; /* Öğeler arası boşluk */
+}
+
+/*stil ayarları */
+.pricing-plan {
+  flex: 1 1 auto; /* Esnek boyutlandırma */
+  margin-top: 68px; /* Üst boşluk */
+  max-width: 620px; /* Maksimum genişlik */
+
+  display: flex; /* Öğeleri yan yana hizalar */
+  flex-direction: column; /* Dikeyde hizala */
+}
+
+/*stil ayarları */
+.pricing-plan.basic {
+  background-color: var(--selago); /* Arkaplan rengi */
+}
+
+/*alt çizgisinin stil ayarları */
+.pricing-plan.basic .pricing-plan-feature {
+  border-bottom-color: var(--blue-bell); /* Alt çizgi rengi */
+}
+
+/*stil ayarları */
+.pricing-plan.pro {
+  background-color: var(--selago); /* Arkaplan rengi */
+}
+
+/*alt çizgisinin stil ayarları */
+.pricing-plan.pro .pricing-plan-feature {
+  border-bottom-color: var(--copper-rust); /* Alt çizgi rengi */
+}
+
+/*butonun stil ayarları */
+.pricing-plan > button {
+  margin: 42px 54px 60px; /* Kenar boşlukları */
+}
+
+/* stil ayarları */
+.pricing-plan-header {
+  padding: 34px 54px 19px; /* Dolgu */
+  border-bottom: 2px solid var(--firefly); /* Alt kenarlık */
+}
+
+/*stil ayarları */
+.pricing-plan-features {
+  margin-top: 4px; /* Üst boşluk */
+  padding: 0 54px; /* Dolgu */
+}
+
+/* stil ayarları */
+.pricing-plan-feature {
+  padding: 24px 0; /* Dolgu */
+  border-bottom-width: 1px; /* Alt çizgi kalınlığı */
+  border-bottom-style: solid; /* Alt çizgi stili */
+}
+
+/* stil ayarları */
+.pricing-plan-feature:last-child {
+  border-bottom: none; /* Son alt çizgiyi kaldır */
+}
+
+/* başlık bölgesinin stil ayarları */
+.pricing-plan-feature-header {
+  display: flex; /* Öğeleri yan yana hizalar */
+  gap: 16px; /* Öğeler arası boşluk */
+  align-items: center; /* Öğeleri dikeyde hizala */
+}
+
+/* başlık sonrası paragraf öğesinin stil ayarları */
+.pricing-plan-feature-header + p {
+  padding-left: 46px; /* Sol iç boşluk */
+  margin-top: 12px; /* Üst boşluk */
+}
+
+/* .text-clr rengi için stil ayarı */
+.text-clr {
+  color: var(--piton-blue); /* Metin rengi */
+}

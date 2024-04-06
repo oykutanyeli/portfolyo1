@@ -1,0 +1,18 @@
+
+/* Başlık ve alttakiler arasındaki boşluk ayarı */
+.pr-main {
+    padding-right: 200px; /* Sağdan boşluk */
+}
+
+
+.pl-main {
+    padding-left: 200px; /* Soldan boşluk */
+}
+
+
+
+/* Bölüm içindekiler*/
+.pl-section {
+    padding-left: 42px; /* Bölüm içindeki sol kenar boşluğu */
+    padding-top: 55px; /* Bölüm içindeki üst kenar boşluğu */
+}

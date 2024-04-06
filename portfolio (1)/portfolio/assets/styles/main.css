@@ -1,0 +1,12 @@
+@import url("reset.css"); /* Reset css import etme */
+/* Fontlar */
+@import url("../fonts/Prompt/font.css");
+@import url("../fonts/Red_Hat_Text/font.css");
+@import url("../fonts/Readex_Pro/font.css");
+
+@import url("root.css"); /* Root a genel stil tanımlamaları */
+@import url("spacing.css"); /* Boşluk padding ayarları */
+@import url("text.css"); /* Metin stilleri */
+@import url("button.css"); /* Butonların stil tanımlamaları */
+@import url("form.css"); /* Form alanı stil tanımlamaları */
+@import url("style.css"); /*öteki stil tanımlamaları
